@@ -12,7 +12,7 @@ function EventList() {
 
         const fetchEvents = async () => {
             try {
-                const response = await fetch('http://localhost:5001/events');
+                const response = await fetch('http://localhost:3000/events');
                 const data = await response.json();
                 setEvents(data);
                 setLoading(false);

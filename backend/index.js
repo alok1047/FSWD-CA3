@@ -30,8 +30,7 @@ app.post('/events', async (req, res) => {
     const newEvent = new EventItem({
         name,
         date,
-        location,
-        description, 
+        location
     });
 
     try {

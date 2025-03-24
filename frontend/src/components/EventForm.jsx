@@ -26,7 +26,7 @@ function EventForm() {
         setSubmitting(true);
 
         try {
-            const response = await fetch('http://localhost:5001/events', {
+            const response = await fetch('http://localhost:3000/events', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
